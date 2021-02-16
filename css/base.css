@@ -1,0 +1,15 @@
+  
+body{
+    width: 100%;
+    margin: 2% 0;
+    font-family: 'Abril Fatface', cursive;
+    text-align: center;
+}
+
+header{
+    padding: 3% 0;
+}
+
+main {
+    padding: 2% 4%;
+}
