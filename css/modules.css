@@ -1,0 +1,45 @@
+
+header h1{
+    font-size: 22px;
+}
+
+header select{
+    margin: 3% 0;
+    padding: 6px;
+    font-size: 17px;
+}
+
+main > section{
+    float: left;
+    border: 1px solid;
+    width: 370px;
+    height: 370px;
+    margin:  10px;
+    padding: 9px;
+}
+.remove-template{
+   display: none;
+}
+main > section h2{
+    margin: 15px;
+}
+main > section img{
+    margin: 15px;
+    width: 165px;
+    height: 165px;
+}
+main > section p{
+     font-size: 20px;
+     line-height: 1.5;
+}
+
+footer {
+    clear: both;
+    padding: 5% 0;
+}
+img{
+    
+    width: 400px;
+    height: auto;
+
+}
