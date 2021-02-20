@@ -1,37 +1,16 @@
 
 header h1{
-    font-size: 22px;
+    font-size: 50px;
+    text-shadow: 0 0 10px #c855d3, 0 0 10px #530aa7;
 }
 
 header select{
     margin: 3% 0;
     padding: 6px;
     font-size: 17px;
+    color: #530aa7;
 }
 
-main > section{
-    float: left;
-    border: 1px solid;
-    width: 370px;
-    height: 370px;
-    margin:  10px;
-    padding: 9px;
-}
-.remove-template{
-   display: none;
-}
-main > section h2{
-    margin: 15px;
-}
-main > section img{
-    margin: 15px;
-    width: 165px;
-    height: 165px;
-}
-main > section p{
-     font-size: 20px;
-     line-height: 1.5;
-}
 
 footer {
     clear: both;
@@ -39,7 +18,21 @@ footer {
 }
 img{
     
-    width: 400px;
+    width: 200px;
     height: auto;
+    border: 2px rgb(211, 114, 250) solid;
+    box-shadow: 5px 10px 18px #888888;
+    
+}
+
+
+#horn {
+    color: #530aa7;
+    float: left;
+    width: 500px;
+    height: 300px;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
 
 }
