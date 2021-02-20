@@ -5,6 +5,13 @@
   <title>The Gallery of Horns</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.css">
+  <script id="templateHorn" type='text/x-templ-mustache'>
+    <div class="{{keyword}}">
+      <h2>{{title}}</h2>
+      <img src="{{image_url}}" alt="{{title}}" style = "width : 300px">
+      <p>{{description}}</p>
+    </div>
+    </script>
 </head>
 
 <body>
@@ -13,17 +20,22 @@
     <select>
       <option value="default">Filter by Keyword</option>
     </select>
+    <span>Sort By: </span>
+    <button value="sort" id="sort">Title</button>
+    <button value="horns" id="horns">Horns</button>
   </header>
   <main>
-    <div class="photo-template" id="horn">
+    <!-- <div class="photo-template" id="horn">
       <h2 class="h2Text"></h2>
       <img src="" alt="">
       <p></p>
-    </div>
+    </div> -->
   </main>
+  <button value="switch" id="switch">Switch Page</button>
   <footer>
     &copy; 2018 Code Fellows
   </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/4.1.0/mustache.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
   <script src="js/app.js"></script>
 </body>
